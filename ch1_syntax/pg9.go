@@ -1,12 +1,11 @@
-package pg9
+package main
 
 import (
 	"math"
-	"strings"
 	"fmt"
 )
 
-func main(){
+func test(){
 	fmt.Println(math.Floor(2.75))
-	fmt.Println(strings.Title("head first go"))
+	// fmt.Println(strings.Title("head first go"))
 }
